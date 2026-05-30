@@ -1,26 +1,52 @@
 [
   {
-    "id": "tree-001",
-    "species": "Dąb Szypułkowy",
-    "height": 22.5,
-    "circumference": 310,
-    "healthStatus": "Dobra",
-    "coordinates": [20.9882, 50.0121]
+    "id": "monument-001",
+    "name": "Pomnik Jana Pawła II",
+    "image": "https://www.it.tarnow.pl/wp-content/uploads/2019/02/pmn_jpII-210x250.jpg",
+    "location": "Pl. Katedralny, obok tarnowskiej Katedry",
+    "author": "prof. Bronisław Chromy",
+    "date": "29 czerwca 1981 r.",
+    "description": "Jeden z pierwszych pomników Jana Pawła II na świecie! Odlany z brązu, przedstawia Ojca Świętego z rozłożonymi rękami. Karol Wojtyła często odwiedzał Tarnów, a w 1987 r. powiedział tu słynne słowa: 'Nie macie pojęcia, jak ja zawsze lubiłem jeździć do Tarnowa!'",
+    "coordinates": [20.98742, 50.01309]
   },
   {
-    "id": "tree-002",
-    "species": "Klon Zwyczajny",
-    "height": 18.0,
-    "circumference": 245,
-    "healthStatus": "Wymaga inspekcji",
-    "coordinates": [20.9850, 50.0135]
+    "id": "monument-002",
+    "name": "Pomnik Ofiar Wojny i Faszyzmu",
+    "image": "https://www.it.tarnow.pl/wp-content/uploads/2019/02/pmn_ofiar_wojny_faszyzmu_1-250x210.jpg",
+    "location": "ul. Narutowicza, przed Starym Cmentarzem",
+    "author": "Bogdana i Anatol Drwal",
+    "date": "19 czerwca 1966 r.",
+    "description": "W hołdzie 45 000 mieszkańców ziemi tarnowskiej pomordowanym w latach 1939-1945. Przedstawia trzy klęczące postacie męczenników oraz miecze 'grunwaldzkie' i płaczące dziecko pod ścianą, symbolizujące życie po utracie bliskich.",
+    "coordinates": [20.98814, 50.00873]
   },
   {
-    "id": "tree-003",
-    "species": "Lipa Drobnolistna",
-    "height": 15.5,
-    "circumference": 180,
-    "healthStatus": "Dobra",
-    "coordinates": [20.9910, 50.0105]
+    "id": "monument-003",
+    "name": "Pomnik Sandora Petőfiego",
+    "image": "https://www.it.tarnow.pl/wp-content/uploads/2019/02/pmn_petofiego-250x210.jpg",
+    "location": "Skwer Petőfiego przy ul. Krakowskiej",
+    "author": "Gustaw Pálfy (popiersie), Andrzej Trybulski (kompozycja)",
+    "date": "5 czerwca 1986 r.",
+    "description": "Dar od Węgrów. Petőfi był adiutantem tarnowianina gen. Józefa Bema podczas rewolucji węgierskiej. Na skwer prowadzi Brama Seklerska, ustawiona przez węgierskich cieśli w 2001 r.",
+    "coordinates": [20.98092, 50.01124]
+  },
+  {
+    "id": "monument-004",
+    "name": "Pomnik Adama Mickiewicza",
+    "image": "https://www.it.tarnow.pl/wp-content/uploads/2019/08/pmn_mickiewicz2019-300x200.jpg",
+    "location": "Pl. Kazimierza Wielkiego",
+    "author": "Tadeusz Błotnicki",
+    "date": "26 listopada 1900 r.",
+    "description": "Ufundowany przez mieszkańców w 100. rocznicę urodzin wieszcza. Ciekawostka: pomnik ocalał okres okupacji, gdyż wmówiono Niemcom, że jest to popiersie Goethego.",
+    "coordinates": [20.9854, 50.0128]
+  },
+  {
+    "id": "monument-005",
+    "name": "Pomnik Wincentego Witosa",
+    "image": "https://www.it.tarnow.pl/wp-content/uploads/2019/02/pmn_wiitosa-250x210.jpg",
+    "location": "ul. Lwowska",
+    "author": "doc. Józef Potępa (rzeźba), arch. Julian Klimek i inż Igna Kłosowicz (otoczenie)",
+    "date": "8 październik 1988 r.",
+    "description": "Wincenty Witos był twórcą i działaczem ruchu ludowego, pomnik postaci w pozycji stojącej odlana w brązie ustawiona na granitowym postumencie.",
+    "coordinates": [20.99317, 50.01262]
   }
 ]
