@@ -49,7 +49,7 @@ export default function MapComponent() {
             layers: [ rasterLayer, vectorLayer ],
             view: new View({
                 center: fromLonLat([20.98, 50.01]),
-                zoom: 13,
+                zoom: 15,
             }),
         });
 
@@ -100,7 +100,7 @@ export default function MapComponent() {
 
                     <div className="space-y-4 text-sm text-gray-600">
                         <div className="flex flex-col">
-                            <img src={selectedMonument.image} alt={selectedMonument.name} className="w-full h-48 object-cover rounded-lg shadow-sm border border-gray-200" />
+                            <img src={selectedMonument.image} alt={selectedMonument.name} className="w-full h-[30vh] object-cover rounded-lg shadow-sm border border-gray-200" />
                         </div>
                         <div className="flex flex-col">
                             <span className="font-semibold text-gray-800 uppercase text-xs">Lokalizacja</span>

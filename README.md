@@ -1,73 +1,18 @@
-# React + TypeScript + Vite
+# Interaktywna mapa z wykorzystaniem OpenLayers do wyświetlania tarnowskich pomników
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Technologie (Tech Stack)
 
-Currently, two official plugins are available:
+Aplikacja została zbudowana w oparciu o stos technologiczny:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **[React.js](https://reactjs.org/)** (v18) - Zarządzanie stanem i cyklem życia komponentów (Hooki: `useState`, `useEffect`, `useRef`).
+* **[TypeScript](https://www.typescriptlang.org/)** - Ścisłe typowanie danych (interfejsy dla obiektów geograficznych), eliminacja błędów w czasie kompilacji.
+* **[OpenLayers](https://openlayers.org/)** - Potężna biblioteka do renderowania map i warstw wektorowych (radząca sobie ze skomplikowanymi rzutowaniami).
+* **[Tailwind CSS](https://tailwindcss.com/)** - Szybkie i responsywne stylowanie interfejsu (podejście utility-first) wraz z płynnymi animacjami (wsuwany panel).
+* **[Vite](https://vitejs.dev/)** - Błyskawiczny bundler i serwer deweloperski.
 
-## React Compiler
+## ✨ Główne funkcjonalności
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- **Dynamiczne renderowanie wektorów:** Wczytywanie danych punktowych (Point) z pliku JSON i rzutowanie ich z formatu WGS84 (EPSG:4326) do formatu Web Mercator (EPSG:3857) używanego przez mapę.
+- **Interaktywne pinezki:** Niestandardowe ostylowanie obiektów typu `Feature` oraz zmiana kursora po najechaniu na obiekt.
+- **Wydobywanie danych z mapy:** Obsługa zdarzeń `singleclick` połączona z metodą `forEachFeatureAtPixel`, co pozwala na powiązanie klikniętego punktu na płótnie (canvas) z konkretnym obiektem danych (rekordem pomnika).
+- **Responsywny UI:** Zaimplementowany animowany panel boczny wyświetlający szczegółowe informacje (zdjęcie, autor, lokalizacja, opis) wybranego pomnika, z możliwością jego płynnego zamknięcia.

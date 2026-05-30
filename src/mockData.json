@@ -48,5 +48,15 @@
     "date": "8 październik 1988 r.",
     "description": "Wincenty Witos był twórcą i działaczem ruchu ludowego, pomnik postaci w pozycji stojącej odlana w brązie ustawiona na granitowym postumencie.",
     "coordinates": [20.99317, 50.01262]
+  },
+  {
+    "id": "monument-006",
+    "name": "Pomnik Nieznanego żołnierza",
+    "image": "https://www.it.tarnow.pl/wp-content/uploads/2019/02/pmn_grob_nieznanego_zolnierza-250x210.jpg",
+    "location": "ul. Wałowa",
+    "author": "Bronisław Kulka",
+    "date": "28 czerwca 1931 r.",
+    "description": "Pierwszy pomnik poświęcony Nieznanemu Żołnierzowi to płyta z napisem “Nieznanemu Żołnierzowi Polskiemu poległemu za Ojczyznę 1914 – 1920.",
+    "coordinates": [20.98585, 50.01380]
   }
 ]
