@@ -1,0 +1,26 @@
+[
+  {
+    "id": "tree-001",
+    "species": "Dąb Szypułkowy",
+    "height": 22.5,
+    "circumference": 310,
+    "healthStatus": "Dobra",
+    "coordinates": [20.9882, 50.0121]
+  },
+  {
+    "id": "tree-002",
+    "species": "Klon Zwyczajny",
+    "height": 18.0,
+    "circumference": 245,
+    "healthStatus": "Wymaga inspekcji",
+    "coordinates": [20.9850, 50.0135]
+  },
+  {
+    "id": "tree-003",
+    "species": "Lipa Drobnolistna",
+    "height": 15.5,
+    "circumference": 180,
+    "healthStatus": "Dobra",
+    "coordinates": [20.9910, 50.0105]
+  }
+]
